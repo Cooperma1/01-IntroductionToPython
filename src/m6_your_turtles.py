@@ -31,8 +31,9 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 import rosegraphics as rg
 window = rg.TurtleWindow()
-big_turtle = SimpleTurtle('turtle')
-big_turtle.pen = rg.Pen(orange,20)
+
+big_turtle = rg.SimpleTurtle('turtle')
+big_turtle.pen = rg.Pen('orange',20)
 big_turtle.speed = 10
 
 size = 150
